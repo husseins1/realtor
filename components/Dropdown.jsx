@@ -25,9 +25,9 @@ export default function Dropdown({title,items,big,children}) {
           </svg>
         </button>
         <div className={styles.dropdownContent}>
-          <div className={styles.header}>
+          {/* <div className={styles.header}>
             <h2>Mega Menu</h2>
-          </div>
+          </div> */}
           <div className={styles.row}>
             <div className={styles.column}>
               <h3>Category 1</h3>
