@@ -39,7 +39,7 @@ export default function Header() {
           />
         </svg>
       </span>
-      <div className={styles.header__logo}>العزيز</div>
+      <div className={styles.header__logo}>داري</div>
       <Dropdown />
       <Avatar
         className={styles.avatar}
@@ -59,7 +59,7 @@ export default function Header() {
       >
         <DrawerOverlay />
         <DrawerContent display={{lg:"none"}} bgColor={"#101d2c"} color={"#fff"}>
-            <DrawerHeader textAlign={"right"}>العزيز</DrawerHeader>
+            <DrawerHeader textAlign={"right"}>داري</DrawerHeader>
           
           <Accordion   allowToggle>
             <AccordionItem  >

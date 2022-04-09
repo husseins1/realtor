@@ -1,7 +1,6 @@
 .header{
     display:flex;
-    
-    /* background-color: #101d2c; */
+    background-color: white;
     color:white;
     align-items:center;
     padding:0.8rem;
@@ -13,7 +12,7 @@
 .header__logo{  
     font-weight: bold;
     font-size:1.8rem;
-    color: #c69963;
+    color: var(--primary);
     margin-right:1rem;
     margin-left: auto;
 }

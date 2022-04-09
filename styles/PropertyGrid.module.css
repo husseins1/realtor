@@ -1,0 +1,15 @@
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    max-width: 80%;
+    margin:2rem auto;
+    padding:1rem 0;
+    
+}
+.link:not(:last-child){
+    cursor:pointer;
+    margin-left: 1rem;
+}
